@@ -7,7 +7,7 @@ import { $, Dom, colorIsDark, logger } from './utils'
 
 const POPUP_TEMPLATE = `
   <div id="{containerId}" class="heyform__popup heyform__popup-{position}">
-    <button class="heyform__popup-button {buttonClass}" style="{buttonStyle}" onclick="HeyForm.togglePopup('{formId}')">
+    <button class="heyform__popup-button {buttonClass}" style="{buttonStyle}" onclick="Workcenter.togglePopup('{formId}')">
       {icon}
     </button>
   </div>

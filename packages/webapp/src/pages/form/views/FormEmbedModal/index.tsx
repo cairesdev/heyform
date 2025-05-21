@@ -46,7 +46,7 @@ export const FormEmbedModal: FC = observer(() => {
 
   const [visible, openModal, closeModal] = useVisible()
 
-	const { t } = useTranslation()
+  const { t } = useTranslation()
 
   function handleClose() {
     formStore.resetEmbed()
@@ -74,7 +74,7 @@ data-heyform-custom-url="${HOMEPAGE_URL}/form/"
 ${attributes.join('\n')}
 >${
       formStore.embedType === 'modal'
-        ? `<button class="heyform__trigger-button" type="button" onclick="HeyForm.openModal('${formId}')">${formStore.currentEmbedConfig.triggerText}</button>`
+        ? `<button class="heyform__trigger-button" type="button" onclick="Workcenter.openModal('${formId}')">${formStore.currentEmbedConfig.triggerText}</button>`
         : ''
     }</div>
 <script src="https://www.unpkg.com/@heyform-inc/embed@latest/dist/index.umd.js"></script>`
@@ -143,12 +143,8 @@ ${attributes.join('\n')}
 
       <Modal visible={visible} onClose={closeModal} showCloseIcon>
         <div>
-          <h1 className="text-lg font-medium leading-6 text-slate-900">
-            {t('share.addHeyform')}
-          </h1>
-          <p className="text-sm text-slate-600">
-            {t('share.embedCodeText')}
-          </p>
+          <h1 className="text-lg font-medium leading-6 text-slate-900">{t('share.addHeyform')}</h1>
+          <p className="text-sm text-slate-600">{t('share.embedCodeText')}</p>
         </div>
         <pre className="my-6 overflow-x-auto rounded bg-slate-700 p-4 text-[13px] text-white">
           <code>{code}</code>

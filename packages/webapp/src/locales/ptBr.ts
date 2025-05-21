@@ -1,6 +1,6 @@
 export default {
   app: {
-    name: 'HeyForm',
+    name: 'Workcenter',
     copy: 'Copiar',
     copied: 'Copiado'
   },
@@ -10,7 +10,7 @@ export default {
     startFree: 'criar uma conta',
     signWith: 'Entrar com',
     noAccount: 'Ainda não tem uma conta?',
-    bindAccountDescription: 'Já é um usuário do HeyForm? Faça login e vincule sua conta.',
+    bindAccountDescription: 'Já é um usuário do Workcenter? Faça login e vincule sua conta.',
     continueWith: 'Ou continue com',
     forgotPassword: 'Esqueceu sua senha?',
     or: 'ou',
@@ -208,9 +208,11 @@ export default {
         warning3:
           'Ao dissolver a equipe, todos os formulários e dados serão apagados e não poderão ser restaurados! Seja cauteloso!'
       },
-      receive: 'Quando a exportação estiver pronta, você receberá um e-mail com o link de download.',
+      receive:
+        'Quando a exportação estiver pronta, você receberá um e-mail com o link de download.',
       export: 'Exportar conteúdo',
-      getEmail: 'Receba um e-mail com todos os seus formulários e configurações em um único arquivo.',
+      getEmail:
+        'Receba um e-mail com todos os seus formulários e configurações em um único arquivo.',
       exportBottom: 'Solicitar seus dados',
 
       logo: 'Logo',
@@ -239,7 +241,7 @@ export default {
     settings: {
       avatar: 'Avatar',
       avatarText:
-        'O Gravatar é usado como avatar padrão no HeyForm. Você pode fazer upload de um avatar personalizado aqui.',
+        'O Gravatar é usado como avatar padrão no Workcenter. Você pode fazer upload de um avatar personalizado aqui.',
       deletedAccount: {
         sendEmail: 'Um e-mail contendo um código de verificação foi enviado para',
         del: 'Excluir conta',
@@ -304,47 +306,49 @@ export default {
     publish: 'Publicar'
   },
   share: {
-		title: 'Compartilhar este formulário',
-		shareLink: 'Compartilhar link',
-		passwordProtection: 'Proteção por senha',
-		embedForm: 'Incorporar formulário',
-		embedOptionsText: 'Use estas opções para incorporar seu formulário ao seu próprio site.',
+    title: 'Compartilhar este formulário',
+    shareLink: 'Compartilhar link',
+    passwordProtection: 'Proteção por senha',
+    embedForm: 'Incorporar formulário',
+    embedOptionsText: 'Use estas opções para incorporar seu formulário ao seu próprio site.',
     embedInWebsite: 'Incorporar no site',
     embed: 'Incorporar',
     getTheCode: 'Obter o código',
-		addHeyform: 'Adicionar HeyForm ao seu site',
-		embedCodeText: 'Cole o seguinte trecho de código na seção body do seu site.',
-		transparentBackground: 'Fundo transparente',
-		position: 'Posição',
-		width: 'Largura',
-		height: 'Altura',
-		modalSize: 'Tamanho do modal',
-		launch: 'Lançar',
-		triggerBackground: 'Fundo do gatilho',
-		triggerText: 'Texto do gatilho',
-		closeOnSubmit: 'Fechar ao enviar',
-		secondsDelay: 'segundos de atraso',
-		pageScrolled: '% da página rolada',
-		bottomLeftCorner: 'Canto inferior esquerdo',
-		bottomRightCorner: 'Canto inferior direito',
-		small: 'Pequeno',
-		medium: 'Médio',
-		large: 'Grande',
-		onButtonClick: 'Ao clicar no botão',
-		onPageLoad: 'No carregamento da página',
-		afterElapsedTime: 'Após um tempo decorrido',
-		onExitIntent: 'Ao detectar intenção de saída',
-		afterScrolling: 'Após rolar a página',
-		auto: 'Automático',
-		fixed: 'Fixo',
+    addHeyform: 'Adicionar Workcenter ao seu site',
+    embedCodeText: 'Cole o seguinte trecho de código na seção body do seu site.',
+    transparentBackground: 'Fundo transparente',
+    position: 'Posição',
+    width: 'Largura',
+    height: 'Altura',
+    modalSize: 'Tamanho do modal',
+    launch: 'Lançar',
+    triggerBackground: 'Fundo do gatilho',
+    triggerText: 'Texto do gatilho',
+    closeOnSubmit: 'Fechar ao enviar',
+    secondsDelay: 'segundos de atraso',
+    pageScrolled: '% da página rolada',
+    bottomLeftCorner: 'Canto inferior esquerdo',
+    bottomRightCorner: 'Canto inferior direito',
+    small: 'Pequeno',
+    medium: 'Médio',
+    large: 'Grande',
+    onButtonClick: 'Ao clicar no botão',
+    onPageLoad: 'No carregamento da página',
+    afterElapsedTime: 'Após um tempo decorrido',
+    onExitIntent: 'Ao detectar intenção de saída',
+    afterScrolling: 'Após rolar a página',
+    auto: 'Automático',
+    fixed: 'Fixo',
     standard: 'Padrão',
-		modal: 'Modal',
-		popup: 'Popup',
-		fullpage: 'Página inteira',
+    modal: 'Modal',
+    popup: 'Popup',
+    fullpage: 'Página inteira',
     Mode: 'Modo',
-    scanCode: 'Escaneie o código para abrir o formulário. Funciona online e offline com uma impressora.',
+    scanCode:
+      'Escaneie o código para abrir o formulário. Funciona online e offline com uma impressora.',
     getCode: 'Obter código QR',
-    selectGroups: 'Você pode selecionar grupos abaixo para compartilhar formulários. Você também pode',
+    selectGroups:
+      'Você pode selecionar grupos abaixo para compartilhar formulários. Você também pode',
     addContacts: 'adicionar contatos',
     Or: 'ou organizá-los em',
     ShareAudience: 'Compartilhar com o público',
@@ -366,11 +370,11 @@ export default {
     embedWeb: [
       {
         title: 'Padrão',
-        description: 'Apresentar HeyForm como parte do seu site'
+        description: 'Apresentar Workcenter como parte do seu site'
       },
       {
         title: 'Popup',
-        description: 'HeyForm aparece no centro da tela.'
+        description: 'Workcenter aparece no centro da tela.'
       },
       {
         title: 'Popup sobreposto',
@@ -423,10 +427,10 @@ export default {
     Extra: 'Extra',
     subArchive: 'Arquivo de envios',
     archiveText:
-      'Desative o arquivo de envios se não quiser que o HeyForm armazene seus envios.',
-		archiveDisableText1: 'Ao confirmar a desativação do Arquivo de Envios,',
-		archiveDisableText2: 'todos os envios serão excluídos',
-		time: 'Tempo',
+      'Desative o arquivo de envios se não quiser que o Workcenter armazene seus envios.',
+    archiveDisableText1: 'Ao confirmar a desativação do Arquivo de Envios,',
+    archiveDisableText2: 'todos os envios serão excluídos',
+    time: 'Tempo',
     timeLimit: 'Limite de tempo',
     timeText:
       'Você pode definir um tempo limite aqui se quiser bloquear o envio após o término da contagem regressiva.',
@@ -483,21 +487,21 @@ export default {
     Disable: 'Desativar',
     timesInEvery: 'vezes a cada',
     times: 'vezes',
-		inEvery: 'a cada',
+    inEvery: 'a cada',
     primaryLanguage: 'Idioma principal',
     languageDescription:
       'Selecione o idioma principal no qual os respondentes verão seu formulário. Aplica-se a textos não personalizados, como botões padrão, mensagens de erro de validação, etc.',
     languages: 'Traduções',
     translationsDescription:
       'Traduza automaticamente as perguntas do formulário para os idiomas escolhidos usando <a>OpenAI ChatGPT</a>.',
-		passwordProtection: 'Proteção por senha',
-		passwordProtectionText: 'Proteja seu formulário com uma senha simples e fácil de lembrar.',
-		passwordProtectionPlaceholder: 'Defina a senha para este formulário',
-		passwordRequired: 'Senha obrigatória',
-		passwordRequiredError: 'Este campo é obrigatório',
-		startDate: 'Data de início',
-		closeDate: 'Data de fechamento',
-		timeZone: 'Fuso horário',
+    passwordProtection: 'Proteção por senha',
+    passwordProtectionText: 'Proteja seu formulário com uma senha simples e fácil de lembrar.',
+    passwordProtectionPlaceholder: 'Defina a senha para este formulário',
+    passwordRequired: 'Senha obrigatória',
+    passwordRequiredError: 'Este campo é obrigatório',
+    startDate: 'Data de início',
+    closeDate: 'Data de fechamento',
+    timeZone: 'Fuso horário'
   },
   integration: {
     Categories: 'Categorias',
@@ -521,13 +525,14 @@ export default {
     tableName: 'Nome da tabela',
     mapFields: 'Mapear campos',
     tableText3:
-      'Mapeie o HeyForm para os campos do Airtable. É essencial digitar os nomes dos campos do Airtable exatamente como aparecem na sua tabela. Se alterar um nome de campo no Airtable, atualize-o aqui também, caso contrário, a integração não funcionará corretamente.',
+      'Mapeie o Workcenter para os campos do Airtable. É essencial digitar os nomes dos campos do Airtable exatamente como aparecem na sua tabela. Se alterar um nome de campo no Airtable, atualize-o aqui também, caso contrário, a integração não funcionará corretamente.',
     DropboxText:
       'Pasta onde os arquivos serão armazenados se você adicionou um componente de "Upload de Arquivo" no seu formulário.',
     select: 'Selecionar pasta',
     Connect: 'Conectar',
     coming: 'Em breve',
-    githubConnect: 'Você pode selecionar sua própria conta ou organizações às quais está conectado.',
+    githubConnect:
+      'Você pode selecionar sua própria conta ou organizações às quais está conectado.',
     chatId: 'ID do Chat',
     Add: 'Adicionar',
     toTelegram: 'ao seu grupo do Telegram, digite',
@@ -575,14 +580,14 @@ export default {
     SelectWorksheet: 'Selecionar aba da planilha',
     MapFields: 'Mapear campos',
     googleSheet:
-      'Mapeie o HeyForm para os campos do Google Sheets. Se você alterar um campo no Google Sheets, atualize-o aqui também, caso contrário, a integração não funcionará corretamente.',
-    leftPlaceholder: 'Pergunta do HeyForm',
+      'Mapeie o Workcenter para os campos do Google Sheets. Se você alterar um campo no Google Sheets, atualize-o aqui também, caso contrário, a integração não funcionará corretamente.',
+    leftPlaceholder: 'Pergunta do Workcenter',
     rightPlaceholder: 'Campo do Google Sheets',
-    leftTipText: 'Selecione uma pergunta do HeyForm',
+    leftTipText: 'Selecione uma pergunta do Workcenter',
     rightTipText: 'Selecione um campo do Google Sheets',
     ColumnValues: 'Valores da coluna (opcional)',
     mondayText:
-      'Mapeie o HeyForm para as colunas do Monday. Se você alterar uma coluna no Monday, atualize-a aqui também, caso contrário, a integração não funcionará corretamente.',
+      'Mapeie o Workcenter para as colunas do Monday. Se você alterar uma coluna no Monday, atualize-a aqui também, caso contrário, a integração não funcionará corretamente.',
     Board: 'Quadro',
     SelectBoard: 'Selecionar um quadro',
     Group: 'Grupo (Opcional)',
@@ -624,7 +629,7 @@ export default {
     Status: 'Status',
     ChooseStatus: 'Escolha o status',
     Authorization: 'Autorização',
-    AuthorizationText: 'Primeiramente, autorize o HeyForm a acessar seus dados',
+    AuthorizationText: 'Primeiramente, autorize o Workcenter a acessar seus dados',
     login: 'Entrar no',
     loginGoogle: 'Entrar no Google'
   },
@@ -671,8 +676,8 @@ export default {
     Upload: 'Enviar',
     Unsplash: 'Unsplash',
     language: 'Idioma',
-		openSidebar: 'Abrir barra lateral',
-		closeSidebar: 'Fechar barra lateral',
+    openSidebar: 'Abrir barra lateral',
+    closeSidebar: 'Fechar barra lateral'
   },
   formBuilder: {
     type: 'Tipo',
@@ -739,7 +744,8 @@ export default {
     number: 'Número',
     fileUpload: 'Envio de arquivo',
     payment: 'Pagamento',
-		paymentConnectText: 'Colete e receba pagamentos diretamente em sua conta bancária fornecida por',
+    paymentConnectText:
+      'Colete e receba pagamentos diretamente em sua conta bancária fornecida por',
     address: 'Endereço',
     country: 'País',
     legalTerms: 'Termos legais',
@@ -784,7 +790,7 @@ export default {
     logic: 'Lógica',
     addNewQuestion: 'Adicionar nova pergunta',
     variable: {
-			variable: 'Variável',
+      variable: 'Variável',
       title: 'Variáveis',
       description:
         'Uma variável de formulário representa um valor oculto calculado com base nas respostas dos participantes no seu formulário. Por exemplo, calcular a pontuação de um quiz.',
@@ -810,7 +816,7 @@ export default {
     cancel: 'Cancelar',
     when: 'Quando',
     then: 'Então',
-		addRule: 'Adicionar regra',
+    addRule: 'Adicionar regra',
     deleteRule: 'Excluir regra',
     rulePlaceholder:
       'Ainda não há regras. Selecione uma pergunta na visualização à esquerda e adicione uma regra no painel pop-up. Você também pode clicar em "Edição em massa" para editar todas as regras de uma vez.',
@@ -833,12 +839,12 @@ export default {
     editHiddenField: 'Editar campo oculto',
     hiddenFieldsTip: 'Saiba mais sobre campos ocultos',
     other: 'Outro',
-		true: 'Verdadeiro',
-		false: 'Falso',
-		example: 'Exemplo',
-		cssClasses: 'Classes CSS',
-		percentAnswered: '% respondido',
-		value: 'Valor',
-		operator: 'Operador',
+    true: 'Verdadeiro',
+    false: 'Falso',
+    example: 'Exemplo',
+    cssClasses: 'Classes CSS',
+    percentAnswered: '% respondido',
+    value: 'Valor',
+    operator: 'Operador'
   }
 }
