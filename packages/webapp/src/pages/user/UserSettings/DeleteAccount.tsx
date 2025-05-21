@@ -8,7 +8,6 @@ import { useStore } from '@/store'
 import { clearAuthState, useAsyncEffect, useVisible } from '@/utils'
 
 const VerifyEmail: FC<IModalProps> = observer(({ visible, onClose, onComplete }) => {
-  const userStore = useStore('userStore')
   const { t } = useTranslation()
 
   async function handleFinish(values: IMapType) {
@@ -23,16 +22,6 @@ const VerifyEmail: FC<IModalProps> = observer(({ visible, onClose, onComplete })
     onComplete?.()
     onClose?.()
   }
-
-  useAsyncEffect(async () => {
-    if (visible) {
-      await UserService.sendDeletionCode()
-
-      notification.success({
-        title: `${t('user.settings.deletedAccount.sendEmail')} ${userStore.user.email}.`
-      })
-    }
-  }, [visible])
 
   return (
     <Modal contentClassName="max-w-md" visible={visible} showCloseIcon onClose={onClose}>
@@ -57,15 +46,7 @@ const VerifyEmail: FC<IModalProps> = observer(({ visible, onClose, onComplete })
             type: 'danger'
           }}
           request={handleFinish}
-        >
-          <Form.Item
-            name="code"
-            label={t('user.settings.deletedAccount.delCode')}
-            rules={[{ required: true }]}
-          >
-            <Input />
-          </Form.Item>
-        </Form.Custom>
+        ></Form.Custom>
       </div>
     </Modal>
   )

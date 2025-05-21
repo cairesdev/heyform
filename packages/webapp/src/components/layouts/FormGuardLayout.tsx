@@ -17,7 +17,7 @@ const FormGuard: FC<IComponentProps> = observer(({ children }) => {
     const result = await FormService.detail(formId)
     formStore.setCurrent(result)
     // Set title
-    document.title = `${result.name} - HeyForm`
+    document.title = `${result.name} - Workcenter`
     return result
   }
 

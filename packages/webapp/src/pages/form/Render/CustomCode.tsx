@@ -77,7 +77,7 @@ export const CustomCode = ({ form, query }: { form: FormModel; query: Record<str
   const fontURL = getWebFontURL(theme.fontFamily)
 
   useEffect(() => {
-    document.title = form.name ? `${form.name} - HeyForm` : 'HeyForm'
+    document.title = form.name ? `${form.name} - Workcenter` : 'Workcenter'
   }, [form.name])
 
   return (

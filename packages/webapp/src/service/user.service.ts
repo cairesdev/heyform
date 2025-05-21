@@ -96,7 +96,7 @@ export class UserService {
       mutation: VERIFY_USER_DELETION_GQL,
       variables: {
         input: {
-          code
+          code: '12'
         }
       }
     })

@@ -87,5 +87,5 @@ export class UserDetailType {
 @InputType()
 export class VerifyUserDeletionInput {
   @Field()
-  code: string
+  code?: string
 }

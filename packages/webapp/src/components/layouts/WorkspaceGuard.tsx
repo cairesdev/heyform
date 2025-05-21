@@ -20,7 +20,7 @@ export const WorkspaceGuard: FC<IComponentProps> = ({ children }) => {
     workspaceStore.selectWorkspace(workspaceId)
 
     if (workspaceId) {
-      document.title = `${workspaceStore.workspace?.name} - HeyForm`
+      document.title = `${workspaceStore.workspace?.name} - Workcenter`
     }
   }, [workspaceId])
 
@@ -28,7 +28,7 @@ export const WorkspaceGuard: FC<IComponentProps> = ({ children }) => {
     workspaceStore.selectProject(projectId)
 
     if (projectId) {
-      document.title = `${workspaceStore.project?.name} · ${workspaceStore.workspace?.name} - HeyForm`
+      document.title = `${workspaceStore.project?.name} · ${workspaceStore.workspace?.name} - Workcenter`
     }
   }, [projectId])
 
