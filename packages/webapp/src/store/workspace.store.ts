@@ -103,7 +103,6 @@ export class WorkspaceStore {
 
   deleteProject(workspaceId: string, projectId: string) {
     const workspace = this.list.find(w => w.id === workspaceId)
-
     if (workspace) {
       workspace.projects = workspace.projects.filter(p => p.id !== projectId)
     }

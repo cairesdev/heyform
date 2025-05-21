@@ -17,10 +17,11 @@ interface TranslateFormQueueJob {
 }
 
 const LANGUAGES = {
+  ptBr: 'Portugês - BR',
   en: 'English',
   de: 'German',
   fr: 'French',
-	pl: 'Polish',
+  pl: 'Polish',
   tr: 'Turkish',
   'zh-cn': 'Simplified Chinese',
   'zh-tw': 'Traditional Chinese'

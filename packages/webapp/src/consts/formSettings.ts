@@ -11,55 +11,15 @@ export const CAPTCHA_KIND_OPTIONS = [
 
 export const LOCALES_OPTIONS = [
   {
-    label: 'English',
-    value: 'en'
-  },
-  {
-    label: 'Polski',
-    value: 'pl'
-  },
-  {
-    label: 'Türkçe',
-    value: 'tr'
-  },
-  {
-    label: '简体中文',
-    value: 'zh-cn'
-  },
-  {
-    label: '繁体中文',
-    value: 'zh-tw'
+    label: 'Portugês - BR',
+    value: 'ptBr'
   }
 ]
 
 export const FORM_LOCALES_OPTIONS = [
   {
-    label: 'English',
-    value: 'en'
-  },
-  {
-    label: 'German',
-    value: 'de'
-  },
-  {
-    label: 'French',
-    value: 'fr'
-  },
-  {
-    label: 'Polish',
-    value: 'pl'
-  },
-  {
-    label: 'Turkish',
-    value: 'tr'
-  },
-  {
-    label: 'Chinese (simplified)',
-    value: 'zh-cn'
-  },
-  {
-    label: 'Chinese (traditional)',
-    value: 'zh-tw'
+    label: 'Portugês - BR',
+    value: 'ptBr'
   }
 ]
 

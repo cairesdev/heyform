@@ -105,42 +105,6 @@ export const Navigation: FC<NavigationProps> = observer(
             ))}
           </div>
         </div>
-
-        {/* Resources links */}
-        <div className="mt-8">
-          <h3
-            className="mb-2 px-2 text-xs font-semibold uppercase tracking-wider text-slate-900"
-            id="resources-headline"
-          >
-            {t('other.labelList.Resources')}
-          </h3>
-          <div className="mt-1 space-y-1" aria-labelledby="resources-headline">
-            <a
-              href="https://docs.heyform.net/create-your-first-heyform"
-              target="_blank"
-              className="group flex items-center rounded-md px-2 py-1 text-sm text-slate-700 hover:bg-slate-200 hover:text-slate-900"
-            >
-              <IconPlayerPlay className="mr-3 h-5 w-5 flex-shrink-0 text-slate-700" />
-              <span className="truncate">{t('other.labelList.GettingStarted')}</span>
-            </a>
-            <a
-              href="https://docs.heyform.net"
-              target="_blank"
-              className="group flex items-center rounded-md px-2 py-1 text-sm text-slate-700 hover:bg-slate-200 hover:text-slate-900"
-            >
-              <IconHelp className="mr-3 h-5 w-5 flex-shrink-0 text-slate-700" />
-              <span className="truncate">{t('other.labelList.Help')}</span>
-            </a>
-            <a
-              href="https://docs.heyform.net/changelog"
-              target="_blank"
-              className="group flex items-center rounded-md px-2 py-1 text-sm text-slate-700 hover:bg-slate-200 hover:text-slate-900"
-            >
-              <IconGift className="mr-3 h-5 w-5 flex-shrink-0 text-slate-700" />
-              <span className="truncate">{t('other.labelList.Changelog')}</span>
-            </a>
-          </div>
-        </div>
       </nav>
     )
   }
