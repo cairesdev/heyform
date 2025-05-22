@@ -24,12 +24,19 @@ export class ExportFileService {
     selectedHiddenFields: HiddenField[],
     submissions: SubmissionModel[]
   ): Promise<string> {
+    const getTitle = (title: any) => {
+      const serialized = htmlUtils.serialize(title)
+      return serialized
+        .replace(/(\S)([A-Z])/g, '$1 $2')
+        .replace(/\s+/g, ' ')
+        .replace('&nbsp;', '')
+    }
     const records: Record<string, any>[] = []
     const selectedFormFields = formFields
       .filter(field => !STATEMENT_FIELD_KINDS.includes(field.kind))
       .map(field => ({
         ...field,
-        title: helper.isArray(field.title) ? htmlUtils.serialize(field.title) : field.title
+        title: helper.isArray(field.title) ? getTitle(field.title) : field.title
       }))
 
     const fields: string[] = [
