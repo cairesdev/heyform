@@ -28,6 +28,16 @@ const Report: FC = observer(() => {
   const formStore = useStore('formStore')
   const [responses, setResponses] = useState<any[]>([])
 
+  const getTitle = (title: any) => {
+    const serialized = htmlUtils.serialize(title)
+
+    // Normaliza múltiplos espaços (se houver) e garante que palavras não fiquem coladas
+    return serialized
+      .replace(/(\S)([A-Z])/g, '$1 $2')
+      .replace(/\s+/g, ' ')
+      .replaceAll('&nbsp;', '')
+  }
+
   async function fetchReport() {
     const result = await FormService.report(formId)
     const fields = flattenFields(formStore.current?.fields).filter(field =>
@@ -65,9 +75,7 @@ const Report: FC = observer(() => {
           }
         }
 
-        response.title = helper.isArray(field.title)
-          ? htmlUtils.plain(htmlUtils.serialize(field.title as any))
-          : field.title
+        response.title = helper.isArray(field.title) ? getTitle(field.title as any) : field.title
         response.kind = field.kind
         response.properties = pickValidValues((field.properties as any) || {}, [
           'tableColumns',

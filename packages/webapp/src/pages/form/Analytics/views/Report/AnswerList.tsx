@@ -181,7 +181,6 @@ const AnswerModal: FC<AnswerModalProps> = ({ visible, response, onVisibleChange 
             </div>
           ))}
         </div>
-
         <Pagination
           className="mt-8 justify-between !px-0"
           total={total}

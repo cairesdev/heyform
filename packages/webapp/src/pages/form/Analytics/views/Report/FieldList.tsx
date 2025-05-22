@@ -24,14 +24,22 @@ export const FieldList: FC = observer(() => {
     })
   }
 
+  const getTitle = (title: any) => {
+    const serialized = htmlUtils.serialize(title)
+
+    // Normaliza múltiplos espaços (se houver) e garante que palavras não fiquem coladas
+    return serialized
+      .replace(/(\S)([A-Z])/g, '$1 $2')
+      .replace(/\s+/g, ' ')
+      .replaceAll('&nbsp;', '')
+  }
+
   return (
     <div className="hidden w-[280px] md:block print:hidden">
       <div className="sticky top-10 mt-11 h-[calc(100vh-212px)] overflow-y-auto rounded-[3px] bg-white p-5">
         <div className="px-[14px] py-2 text-[#8a94a6]">{t('report.Questions')}</div>
         {fields?.map((row, index) => {
-          const title = helper.isArray(row.title)
-            ? htmlUtils.plain(htmlUtils.serialize(row.title as any))
-            : row.title
+          const title = helper.isArray(row.title) ? getTitle(row.title) : row.title
 
           return (
             <div

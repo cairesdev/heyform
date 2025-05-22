@@ -109,7 +109,7 @@ export const Block: FC<BlockProps> = ({
                 })}
               </div>
               <h2 className="heyform-block-title">
-                {htmlUtils.plain(field.parent.title as string)}
+                {(field.parent.title as string).replace('&nbsp;', '')}{' '}
               </h2>
             </div>
           </div>
