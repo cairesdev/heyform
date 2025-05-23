@@ -6,7 +6,7 @@ import {
   QUESTION_FIELD_KINDS
 } from '@heyform-inc/shared-types-enums'
 import { helper, pickValidValues } from '@heyform-inc/utils'
-import { IconChartBar } from '@tabler/icons-react'
+import { IconChartBar, IconDatabase } from '@tabler/icons-react'
 import { observer } from 'mobx-react-lite'
 import { FC, useState } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -20,7 +20,7 @@ import { useParam } from '@/utils'
 import { FieldList } from './FieldList'
 import { ReportItem } from './ReportItem'
 
-const CHOICE_KINDS = [FieldKindEnum.YES_NO, ...CHOICES_FIELD_KINDS, ...CUSTOM_COLUMN_CHOICE_KINDS]
+const CHOICE_KINDS = [FieldKindEnum.YES_NO, ...CHOICES_FIELD_KINDS]
 
 const Report: FC = observer(() => {
   const { t } = useTranslation()
@@ -31,6 +31,7 @@ const Report: FC = observer(() => {
   const getTitle = (title: any) => {
     const serialized = htmlUtils.serialize(title)
 
+    // Normaliza múltiplos espaços (se houver) e garante que palavras não fiquem coladas
     return serialized
       .replace(/(\S)([A-Z])/g, '$1 $2')
       .replace(/\s+/g, ' ')
