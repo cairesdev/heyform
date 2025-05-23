@@ -1,6 +1,4 @@
 import { Injectable } from '@nestjs/common'
-import { parseAsync } from 'json2csv'
-
 import { htmlUtils, parsePlainAnswer } from '@heyform-inc/answer-utils'
 import {
   Answer,
@@ -19,7 +17,7 @@ const SUBMIT_DATE_KEY = 'Submit Date (UTC)'
 
 @Injectable()
 export class ExportFileService {
-  async csv(
+  async json(
     formFields: FormField[],
     selectedHiddenFields: HiddenField[],
     submissions: SubmissionModel[]
@@ -31,6 +29,7 @@ export class ExportFileService {
         .replace(/\s+/g, ' ')
         .replace('&nbsp;', '')
     }
+
     const records: Record<string, any>[] = []
     const selectedFormFields = formFields
       .filter(field => !STATEMENT_FIELD_KINDS.includes(field.kind))
@@ -38,14 +37,6 @@ export class ExportFileService {
         ...field,
         title: helper.isArray(field.title) ? getTitle(field.title) : field.title
       }))
-
-    const fields: string[] = [
-      FIELD_ID_KEY,
-      ...selectedFormFields.map(field => field.title),
-      ...selectedHiddenFields.map(hiddenField => hiddenField.name),
-      START_DATE_KEY,
-      SUBMIT_DATE_KEY
-    ]
 
     for (const submission of submissions) {
       const record: Record<string, any> = {
@@ -78,9 +69,7 @@ export class ExportFileService {
       records.push(record)
     }
 
-    return parseAsync(records, {
-      fields
-    })
+    return JSON.stringify(records, null, 2) // JSON formatado
   }
 
   private parseAnswer(answer: Answer): string {

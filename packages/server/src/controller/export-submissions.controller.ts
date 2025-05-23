@@ -35,7 +35,7 @@ export class ExportSubmissionsController {
       throw new BadRequestException('The submissions does not exist')
     }
 
-    const data = await this.exportFileService.csv(
+    const data = await this.exportFileService.json(
       flattenFields(form.fields),
       form.hiddenFields,
       submissions

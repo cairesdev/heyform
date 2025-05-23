@@ -112,6 +112,9 @@ importers:
       dotenv:
         specifier: 8.2.0
         version: 8.2.0
+      export-from-json:
+        specifier: ^1.7.4
+        version: 1.7.4
       express-rate-limit:
         specifier: 5.1.3
         version: 5.1.3
@@ -135,7 +138,7 @@ importers:
         version: 4.0.2(graphql@15.3.0)
       graphql-tools:
         specifier: 6.2.1
-        version: 6.2.1(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(bufferutil@4.0.8)(encoding@0.1.13)(graphql@15.3.0)(utf-8-validate@5.0.10)
+        version: 6.2.1(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(bufferutil@4.0.8)(encoding@0.1.13)(graphql@15.3.0)(utf-8-validate@5.0.10)
       graphql-type-json:
         specifier: 0.3.2
         version: 0.3.2(graphql@15.3.0)
@@ -283,22 +286,22 @@ importers:
     dependencies:
       '@apollo/client':
         specifier: ^3.5.9
-        version: 3.9.9(@types/react@18.2.73)(graphql@15.3.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0))
+        version: 3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))
       '@floating-ui/react':
         specifier: ^0.19.2
-        version: 0.19.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 0.19.2(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       '@headlessui/react':
         specifier: ^1.6.6
-        version: 1.7.18(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 1.7.18(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       '@heyform-inc/answer-utils':
         specifier: ^1.2.0
-        version: 1.2.0(@heyform-inc/shared-types-enums@1.1.4)(@heyform-inc/utils@1.0.9)(big.js@6.2.1)(dayjs@1.11.10)(html5parser@2.0.2)(libphonenumber-js@1.10.59)(validator@13.11.0)
+        version: 1.2.0(@heyform-inc/shared-types-enums@1.2.2)(@heyform-inc/utils@1.2.2)(big.js@6.2.2)(dayjs@1.11.13)(html5parser@2.0.2)(libphonenumber-js@1.11.8)(validator@13.12.0)
       '@heyform-inc/shared-types-enums':
         specifier: ^1.1.4
-        version: 1.1.4
+        version: 1.2.2
       '@heyform-inc/utils':
         specifier: ^1.0.9
-        version: 1.0.9
+        version: 1.2.2
       '@popperjs/core':
         specifier: ^2.11.5
         version: 2.11.8
@@ -316,16 +319,16 @@ importers:
         version: 2.2.16(graphql@15.3.0)
       apollo-link-timeout:
         specifier: ^4.0.0
-        version: 4.0.0(@apollo/client@3.9.9(@types/react@18.2.73)(graphql@15.3.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0)))
+        version: 4.0.0(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))
       apollo-upload-client:
         specifier: 17.0.0
-        version: 17.0.0(@apollo/client@3.9.9(@types/react@18.2.73)(graphql@15.3.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0)))(graphql@15.3.0)
+        version: 17.0.0(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(graphql@15.3.0)
       axios:
         specifier: 1.6.8
         version: 1.6.8
       big.js:
         specifier: ^6.1.1
-        version: 6.2.1
+        version: 6.2.2
       clsx:
         specifier: ^1.1.1
         version: 1.2.1
@@ -337,7 +340,7 @@ importers:
         version: 0.8.5
       dayjs:
         specifier: ^1.11.3
-        version: 1.11.10
+        version: 1.11.13
       fast-equals:
         specifier: ^3.0.1
         version: 3.0.3
@@ -355,7 +358,7 @@ importers:
         version: 3.0.5
       libphonenumber-js:
         specifier: ^1.10.7
-        version: 1.10.59
+        version: 1.11.8
       lodash:
         specifier: 4.17.21
         version: 4.17.21
@@ -364,16 +367,16 @@ importers:
         version: 6.12.1
       mobx-react-lite:
         specifier: ^3.2.3
-        version: 3.4.3(mobx@6.12.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 3.4.3(mobx@6.12.1)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       qrcode.react:
         specifier: ^1.0.1
         version: 1.0.1(react@18.2.0)
       rc-field-form:
         specifier: ^1.43.0
-        version: 1.43.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 1.43.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       rc-picker:
         specifier: ^2.6.10
-        version: 2.7.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 2.7.6(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -382,40 +385,40 @@ importers:
         version: 3.0.0
       react-colorful:
         specifier: ^5.6.1
-        version: 5.6.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 5.6.1(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react-copy-to-clipboard:
         specifier: ^5.0.4
         version: 5.1.0(react@18.2.0)
       react-dom:
         specifier: ^18.2.0
-        version: 18.2.0(react@18.2.0)
+        version: 18.3.1(react@18.2.0)
       react-error-boundary:
         specifier: ^4.0.13
         version: 4.0.13(react@18.2.0)
       react-flow-renderer:
         specifier: ^10.3.7
-        version: 10.3.17(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 10.3.17(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react-i18next:
         specifier: ^11.18.6
-        version: 11.18.6(i18next@21.10.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 11.18.6(i18next@21.10.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react-popper:
         specifier: ^2.3.0
-        version: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 2.3.0(@popperjs/core@2.11.8)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react-resizable-panels:
         specifier: ^2.0.16
-        version: 2.0.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 2.0.16(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react-router-dom:
         specifier: ^6.22.3
-        version: 6.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 6.22.3(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react-sortablejs:
         specifier: ^6.1.1
-        version: 6.1.4(@types/sortablejs@1.15.8)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sortablejs@1.15.2)
+        version: 6.1.4(@types/sortablejs@1.15.8)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(sortablejs@1.15.2)
       react-transition-group:
         specifier: ^4.4.2
-        version: 4.4.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 4.4.5(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react-transition-state:
         specifier: ^1.1.5
-        version: 1.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+        version: 1.1.5(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       signature_pad:
         specifier: ^4.2.0
         version: 4.2.0
@@ -436,14 +439,14 @@ importers:
         version: 4.2.0
       validator:
         specifier: ^13.7.0
-        version: 13.11.0
+        version: 13.12.0
     devDependencies:
       '@trivago/prettier-plugin-sort-imports':
         specifier: 3.3.1
         version: 3.3.1(prettier@2.8.8)
       '@types/apollo-upload-client':
         specifier: ^17.0.0
-        version: 17.0.5(@types/react@18.2.73)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0))
+        version: 17.0.5(@types/react@18.3.8)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))
       '@types/big.js':
         specifier: ^6.1.3
         version: 6.2.2
@@ -461,7 +464,7 @@ importers:
         version: 5.3.14
       '@types/react':
         specifier: ^18.0.2
-        version: 18.2.73
+        version: 18.3.8
       '@types/react-copy-to-clipboard':
         specifier: ^5.0.2
         version: 5.0.7
@@ -476,7 +479,7 @@ importers:
         version: 4.4.10
       '@types/validator':
         specifier: ^13.7.1
-        version: 13.11.9
+        version: 13.12.0
       '@typescript-eslint/eslint-plugin':
         specifier: ^5.10.1
         version: 5.62.0(@typescript-eslint/parser@5.62.0(eslint@8.57.0)(typescript@4.9.5))(eslint@8.57.0)(typescript@4.9.5)
@@ -586,24 +589,6 @@ packages:
       graphql-ws: ^5.5.5
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc <19.0.0
       react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || >=19.0.0-rc <19.0.0
-      subscriptions-transport-ws: ^0.9.0 || ^0.11.0
-    peerDependenciesMeta:
-      graphql-ws:
-        optional: true
-      react:
-        optional: true
-      react-dom:
-        optional: true
-      subscriptions-transport-ws:
-        optional: true
-
-  '@apollo/client@3.9.9':
-    resolution: {integrity: sha512-/sMecU/M0WK9knrguts1lSLV8xFKzIgOMVb4mi6MOxgJXjliDB8PvOtmXhTqh2cVMMR4TzXgOnb+af/690zlQw==}
-    peerDependencies:
-      graphql: ^15.0.0 || ^16.0.0
-      graphql-ws: ^5.5.5
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
       subscriptions-transport-ws: ^0.9.0 || ^0.11.0
     peerDependenciesMeta:
       graphql-ws:
@@ -1506,16 +1491,9 @@ packages:
       libphonenumber-js: ^1.10.7
       validator: ^13.7.0
 
-  '@heyform-inc/shared-types-enums@1.1.4':
-    resolution: {integrity: sha512-RCD1wKsWVC+c8SuSa+VhRRkGjHkJSsJc8/eQPDqYrRbZXErM7J3neplrE2qfx457Dh7LJUW+Wg6T6ig3T/JaJA==}
-    engines: {node: '>=12.0.0'}
-
   '@heyform-inc/shared-types-enums@1.2.2':
     resolution: {integrity: sha512-i3nIerdIzjDjcOfEM26zcU3zHs138igsm5Wq77lqqmcW559EjZHNpM4JronxN+quAYGnfw2nPbRxib5ds/1qTg==}
     engines: {node: '>=12.0.0'}
-
-  '@heyform-inc/utils@1.0.9':
-    resolution: {integrity: sha512-8vUANzilwB117vM6e/UnG6myRpYZzrre2fWx3nLWVUQl4Aie5WpeXBJr5NBBsj8Brjuo5sBBjxVAenekUDPdRg==}
 
   '@heyform-inc/utils@1.2.2':
     resolution: {integrity: sha512-UO4uDs8lT6AYCwQaBImzuS/Z/kmeW/ys0lLNNFH8NWvBfB+DJRx5ttO2qyXV6KfAcFh7Ezad7w1a+HmUVLUDbQ==}
@@ -1529,6 +1507,7 @@ packages:
   '@humanwhocodes/config-array@0.11.14':
     resolution: {integrity: sha512-3T8LkOmg45BV5FICb15QQMsyUSWrQ8AygVfC7ZG32zOalnqrilm018ZVCw0eapXux8FtA33q8PSRSstjee3jSg==}
     engines: {node: '>=10.10.0'}
+    deprecated: Use @eslint/config-array instead
 
   '@humanwhocodes/module-importer@1.0.1':
     resolution: {integrity: sha512-bxveV4V8v5Yb4ncFTT3rPSgZBOpCkjfK0y4oVVVJwIuDVBRMDXrPyXRL988i5ap9m9bnyEEjWfm5WkBmtffLfA==}
@@ -1536,6 +1515,7 @@ packages:
 
   '@humanwhocodes/object-schema@2.0.2':
     resolution: {integrity: sha512-6EwiSjwWYP7pTckG6I5eyFANjPhmPjUX9JRLUSfNPC7FX7zK9gyZAfUEaECL6ALTpGX5AjnBq3C9XmVWPitNpw==}
+    deprecated: Use @eslint/object-schema instead
 
   '@isaacs/cliui@8.0.2':
     resolution: {integrity: sha512-O8jcjabXaleOG9DQ0+ARXWZBTfnP4WNAqzuiJK7ll44AmxGKv/J2M4TPjxjY3znBCfvBXFzucm1twdyFybFqEA==}
@@ -2097,9 +2077,6 @@ packages:
   '@types/cacheable-request@6.0.3':
     resolution: {integrity: sha512-IQ3EbTzGxIigb1I3qPZc1rWJnH0BmSKv5QYTalEwweFvyBDLSAe24zP0le/hyi7ecGfZVlIVAg4BZqb8WBwKqw==}
 
-  '@types/clone@0.1.30':
-    resolution: {integrity: sha512-vcxBr+ybljeSiasmdke1cQ9ICxoEwaBgM1OQ/P5h4MPj/kRyLcDl5L8PrftlbyV1kBbJIs3M3x1A1+rcWd4mEA==}
-
   '@types/clone@2.1.4':
     resolution: {integrity: sha512-NKRWaEGaVGVLnGLB2GazvDaZnyweW9FJLLFL5LhywGJB3aqGMT9R/EUoJoSRP4nzofYnZysuDmrEJtJdAqUOtQ==}
 
@@ -2367,9 +2344,6 @@ packages:
   '@types/prop-types@15.7.12':
     resolution: {integrity: sha512-5zvhXYtRNRluoE/jAp4GVsSduVUzNWKkOZrCDBWYtE7biZywwdC2AcEzg+cSMLFRfVgeAFqpfNabiPjxFddV1Q==}
 
-  '@types/prop-types@15.7.13':
-    resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
-
   '@types/qs@6.9.14':
     resolution: {integrity: sha512-5khscbd3SwWMhFqylJBLQ0zIu7c1K6Vz0uBIt915BI3zV0q1nfjRQD3RqSBcPaO6PHEF4ov/t9y89fSiyThlPA==}
 
@@ -2393,9 +2367,6 @@ packages:
 
   '@types/react-transition-group@4.4.10':
     resolution: {integrity: sha512-hT/+s0VQs2ojCX823m60m5f0sL5idt9SO6Tj6Dg+rdphGPIeJbJ6CxvBYkgkGKrYeDjvIpKTR38UzmtHJOGW3Q==}
-
-  '@types/react@18.2.73':
-    resolution: {integrity: sha512-XcGdod0Jjv84HOC7N5ziY3x+qL0AfmubvKOZ9hJjJ2yd5EE+KYjWhdOjt387e9HPheHkdggF9atTifMRtyAaRA==}
 
   '@types/react@18.3.8':
     resolution: {integrity: sha512-syBUrW3/XpnW4WJ41Pft+I+aPoDVbrBVQGEnbD7NijDGlVC+8gV/XKRY+7vMDlfPpbwYt0l1vd/Sj8bJGMbs9Q==}
@@ -2429,9 +2400,6 @@ packages:
 
   '@types/uuid@10.0.0':
     resolution: {integrity: sha512-7gqG38EyHgyP1S+7+xomFtL+ZNHcKv6DwNaCZmJmo1vgMugyF3TCnXVg4t1uk89mLNwnLtnY3TpOpCOyp1/xHQ==}
-
-  '@types/uuid@8.3.4':
-    resolution: {integrity: sha512-c/I8ZRb51j+pYGAu5CrFMRxqZ2ke4y2grEBO5AUjgSkSk+qT2Ea+OdWElz/OiMf5MNpn2b17kuVBwZLQJXzihw==}
 
   '@types/validator@13.11.9':
     resolution: {integrity: sha512-FCTsikRozryfayPuiI46QzH3fnrOoctTjvOYZkho9BTFLCOZ2rgZJHMOVgCOfttjPJcgOx52EpkY0CMfy87MIw==}
@@ -2796,12 +2764,12 @@ packages:
   apollo-datasource@0.10.0:
     resolution: {integrity: sha512-wrLhuoM2MtA0KA0+3qyioe0H2FjAxjTvuFOlNCk6WberA887m0MQlWULZImCWTkKuN+zEAMerHfxN+F+W8+lBA==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
 
   apollo-datasource@0.7.3:
     resolution: {integrity: sha512-PE0ucdZYjHjUyXrFWRwT02yLcx2DACsZ0jm1Mp/0m/I9nZu/fEkvJxfsryXB6JndpmQO77gQHixf/xGCN976kA==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-datasource` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
 
   apollo-engine-reporting-protobuf@0.5.2:
     resolution: {integrity: sha512-4wm9FR3B7UvJxcK/69rOiS5CAJPEYKufeRWb257ZLfX7NGFTMqvbc1hu4q8Ch7swB26rTpkzfsftLED9DqH9qg==}
@@ -2853,11 +2821,11 @@ packages:
 
   apollo-reporting-protobuf@0.6.2:
     resolution: {integrity: sha512-WJTJxLM+MRHNUxt1RTl4zD0HrLdH44F2mDzMweBj1yHL0kSt8I1WwoiF/wiGVSpnG48LZrBegCaOJeuVbJTbtw==}
-    deprecated: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
 
   apollo-reporting-protobuf@0.8.0:
     resolution: {integrity: sha512-B3XmnkH6Y458iV6OsA7AhfwvTgeZnFq9nPVjbxmLKnvfkEl8hYADtz724uPa0WeBiD7DSFcnLtqg9yGmCkBohg==}
-    deprecated: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-reporting-protobuf` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/usage-reporting-protobuf` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
 
   apollo-server-caching@0.5.3:
     resolution: {integrity: sha512-iMi3087iphDAI0U2iSBE9qtx9kQoMMEWr6w+LwXruBD95ek9DWyj7OeC2U/ngLjRsXM43DoBDXlu7R+uMjahrQ==}
@@ -2872,86 +2840,86 @@ packages:
   apollo-server-core@2.16.1:
     resolution: {integrity: sha512-nuwn5ZBbmzPwDetb3FgiFFJlNK7ZBFg8kis/raymrjd3eBGdNcOyMTJDl6J9673X9Xqp+dXQmFYDW/G3G8S1YA==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server-core@2.26.2:
     resolution: {integrity: sha512-r8jOhf1jElaxsNsALFMy/MLiJCqSa1ZiwxkerVYbsEkyWrpD1Khy0extDkTBrfa6uK8CatX7xK9U413bYNhJFA==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-core` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server-env@2.4.5:
     resolution: {integrity: sha512-nfNhmGPzbq3xCEWT8eRpoHXIPNcNy3QcEoBlzVMjeglrBGryLG2LXwBSPnVmTRRrzUYugX0ULBtgE3rBFNoUgA==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
 
   apollo-server-env@3.2.0:
     resolution: {integrity: sha512-V+kO5e6vUo2JwqV1/Ng71ZE3J6x1hCOC+nID2/++bCYl0/fPY9iLChbBNSgN/uoFcjhgmBchOv+m4o0Nie/TFQ==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-env` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/utils.fetcher` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
 
   apollo-server-errors@2.5.0:
     resolution: {integrity: sha512-lO5oTjgiC3vlVg2RKr3RiXIIQ5pGXBFxYGGUkKDhTud3jMIhs+gel8L8zsEjKaKxkjHhCQAA/bcEfYiKkGQIvA==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-errors` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server-express@2.26.2:
     resolution: {integrity: sha512-8KaDwc6/DMK6e5KmP4AGH/NNY7OhEOFxusz3JZ/Du08a+PN8c/JmaEAwQ0aTNpySb5PWpv6xeXRPPwNfaPK9IQ==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-express` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-express` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server-plugin-base@0.10.4:
     resolution: {integrity: sha512-HRhbyHgHFTLP0ImubQObYhSgpmVH4Rk1BinnceZmwudIVLKrqayIVOELdyext/QnSmmzg5W7vF3NLGBcVGMqDg==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server-plugin-base@0.14.0:
     resolution: {integrity: sha512-nTNSFuBhZURGjtWptdVqwemYUOdsvABj/GSKzeNvepiEubiv4N0rt4Gvy1inHDiMbo98wQTdF/7XohNcB9A77g==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server-plugin-base@0.9.1:
     resolution: {integrity: sha512-kvrX4Z3FdpjrZdHkyl5iY2A1Wvp4b6KQp00DeZqss7GyyKNUBKr80/7RQgBLEw7EWM7WB19j459xM/TjvW0FKQ==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-plugin-base` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server-types@0.10.0:
     resolution: {integrity: sha512-LsB3epw1X3Co/HGiKHCGtzWG35J59gG8Ypx0p22+wgdM9AVDm1ylsNGZy+osNIVJc1lUJf3nF5kZ90vA866K/w==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server-types@0.5.1:
     resolution: {integrity: sha512-my2cPw+DAb2qVnIuBcsRKGyS28uIc2vjFxa1NpRoJZe9gK0BWUBk7wzXnIzWy3HZ5Er11e/40MPTUesNfMYNVA==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server-types@0.6.3:
     resolution: {integrity: sha512-aVR7SlSGGY41E1f11YYz5bvwA89uGmkVUtzMiklDhZ7IgRJhysT5Dflt5IuwDxp+NdQkIhVCErUXakopocFLAg==}
     engines: {node: '>=6'}
-    deprecated: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server-types` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
   apollo-server@2.26.2:
     resolution: {integrity: sha512-VgEvOSqcGgMofUVji97nsHnUCXPaMg9efBbM3xI/HbTn3baKQHoRjqfnR4xZeEd9DkhgxwrmSZHBjWCjGOYExg==}
-    deprecated: The `apollo-server` package is part of Apollo Server v2 and v3, which are now deprecated (end-of-life October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
+    deprecated: The `apollo-server` package is part of Apollo Server v2 and v3, which are now end-of-life (as of October 22nd 2023 and October 22nd 2024, respectively). This package's functionality is now found in the `@apollo/server` package. See https://www.apollographql.com/docs/apollo-server/previous-versions/ for more details.
     peerDependencies:
       graphql: ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
 
@@ -2990,6 +2958,7 @@ packages:
   are-we-there-yet@2.0.0:
     resolution: {integrity: sha512-Ci/qENmwHnsYo9xKIcUJN5LeDKdJ6R1Z1j9V/J5wyq8nh/mYPEpIKJbBZXtZjG04HiK7zV/p6Vs9952MrMeUIw==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
 
   arg@4.1.3:
     resolution: {integrity: sha512-58S9QDqG0Xx27YwPSt9fJxivjYl432YCwfDMfZ+71RAqUrZef7LrKQZ3LHLOwCS4FLNBplP533Zx895SeOCHvA==}
@@ -3184,9 +3153,6 @@ packages:
   big.js@5.2.2:
     resolution: {integrity: sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ==}
 
-  big.js@6.2.1:
-    resolution: {integrity: sha512-bCtHMwL9LeDIozFn+oNhhFoq+yQ3BNdnsLSASUxLciOb1vgvpHsIO1dsENiGMgbb4SkP5TrzWzRiLddn8ahVOQ==}
-
   big.js@6.2.2:
     resolution: {integrity: sha512-y/ie+Faknx7sZA5MfGA2xKlu0GDv8RWrXGsmlteyJQ2lvoKv9GBK/fpRMc2qlSoBAgNxrixICFCBefIq8WCQpQ==}
 
@@ -3287,6 +3253,7 @@ packages:
   bson@6.5.0:
     resolution: {integrity: sha512-DXf1BTAS8vKyR90BO4x5v3rKVarmkdkzwOrnYDFdjAY694ILNDkmA3uRh1xXJEl+C1DAh8XCvAQ+Gh3kzubtpg==}
     engines: {node: '>=16.20.1'}
+    deprecated: a critical bug affecting only useBigInt64=true deserialization usage is fixed in bson@6.10.3
 
   buffer-equal-constant-time@1.0.1:
     resolution: {integrity: sha512-zRpUiDwd/xk6ADqPMATG8vc9VPrkck7T07OIx0gnjmJAnHnTVXNQG3vfvWNuiZIkwu9KrKdA1iJKfsfTVxE6NA==}
@@ -3610,6 +3577,7 @@ packages:
 
   copy-concurrently@1.0.5:
     resolution: {integrity: sha512-f2domd9fsVDFtaFcbaRZuYXwtdmnzqbADSwhSWYxYB/Q8zsdUUFMXVRwXGDMWmbEzAn1kdRrtI1T/KTFOL4X2A==}
+    deprecated: This package is no longer supported.
 
   copy-descriptor@0.1.1:
     resolution: {integrity: sha512-XgZ0pFcakEUlbwQEVNg3+QAis1FyTL3Qel9FYy8pSkQqoG3PNoT0bOCQtOXcOkur21r2Eq2kI+IE+gsmAEVlYw==}
@@ -3767,9 +3735,6 @@ packages:
   date-fns@2.30.0:
     resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
     engines: {node: '>=0.11'}
-
-  dayjs@1.11.10:
-    resolution: {integrity: sha512-vjAczensTgRcqDERK0SR2XMwsF/tSvnvlv6VcF2GIhg6Sx4yOIt/irsr1RDJsKiIyBzJDpCoXiWWq28MqH2cnQ==}
 
   dayjs@1.11.12:
     resolution: {integrity: sha512-Rt2g+nTbLlDWZTwwrIXjy9MeiZmSDI375FvZs72ngxx8PDC6YXOeR3q5LAuPzjZQxhiWdRKac7RKV+YyQYfYIg==}
@@ -4250,11 +4215,13 @@ packages:
   eslint@7.4.0:
     resolution: {integrity: sha512-gU+lxhlPHu45H3JkEGgYhWhkR9wLHHEXC9FbWFnTlEkbKyZKWgWRLgf61E8zWmBuI6g5xKBph9ltg3NtZMVF8g==}
     engines: {node: ^10.12.0 || >=12.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   esniff@2.0.1:
@@ -4329,6 +4296,9 @@ packages:
   expand-template@2.0.3:
     resolution: {integrity: sha512-XYfuKMvj4O35f/pOXLObndIRvyQ+/+6AhODh+OKWj9S9498pHHn/IMszH+gt0fBCRWMNfk1ZSp5x3AifmnI2vg==}
     engines: {node: '>=6'}
+
+  export-from-json@1.7.4:
+    resolution: {integrity: sha512-FjmpluvZS2PTYyhkoMfQoyEJMfe2bfAyNpa5Apa6C9n7SWUWyJkG/VFnzERuj3q9Jjo3iwBjwVsDQ7Z7sczthA==}
 
   express-rate-limit@5.1.3:
     resolution: {integrity: sha512-TINcxve5510pXj4n9/1AMupkj3iWxl3JuZaWhCdYDlZeoCPqweGZrxbrlqTCFb1CT5wli7s8e2SH/Qz2c9GorA==}
@@ -4547,6 +4517,7 @@ packages:
 
   formidable@2.1.2:
     resolution: {integrity: sha512-CM3GuJ57US06mlpQ47YcunuUZ9jpm8Vx+P2CGt2j7HpgkKZO/DJYQ0Bobim8G6PFQmK5lOqOOdUXboU+h73A4g==}
+    deprecated: 'ACTION REQUIRED: SWITCH TO v3 - v1 and v2 are VULNERABLE! v1 is DEPRECATED FOR OVER 2 YEARS! Use formidable@latest or try formidable-mini for fresh projects'
 
   forwarded@0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
@@ -4594,6 +4565,7 @@ packages:
 
   fs-write-stream-atomic@1.0.10:
     resolution: {integrity: sha512-gehEzmPn2nAwr39eay+x3X34Ra+M2QlVUTLhkXPjWdeO8RF9kszk116avgBJM3ZyNHgHXBNx+VmPaFC36k0PzA==}
+    deprecated: This package is no longer supported.
 
   fs.realpath@1.0.0:
     resolution: {integrity: sha512-OO0pH2lK6a0hZnAdau5ItzHPI6pUlvI7jMVnxUQRtw4owF2wk8lOSabtGDCTP4Ggrg2MbGnWO9X8K1t4+fGMDw==}
@@ -4631,6 +4603,7 @@ packages:
   gauge@3.0.2:
     resolution: {integrity: sha512-+5J6MS/5XksCuXq++uFRsnUd7Ovu1XenbeuIuNRJxYWjgQbPuFhT14lAvsWfqfAmnwluf1OwMjz39HjfLPci0Q==}
     engines: {node: '>=10'}
+    deprecated: This package is no longer supported.
 
   gaxios@3.2.0:
     resolution: {integrity: sha512-+6WPeVzPvOshftpxJwRi2Ozez80tn/hdtOUag7+gajDHRJvAblKxTFSSMPtr2hmnLy7p0mvYz0rMXLBl8pSO7Q==}
@@ -4701,6 +4674,7 @@ packages:
 
   glob@7.2.3:
     resolution: {integrity: sha512-nFR0zLpU2YCaRxwoCJvL6UvCH2JFyFVIvwTLsIf21AuHlMskA1hhTdk+LlYJtOlYt9v6dvszD2BGRqBL+iQK9Q==}
+    deprecated: Glob versions prior to v9 are no longer supported
 
   globals@11.12.0:
     resolution: {integrity: sha512-WOBp/EEGUiIsJSp7wcv/y6MO+lV9UoncWqxuFfm8eBwzWNgyfBd6Gz+IeKQ9jCmyhoH99g15M3T+QaVHFjizVA==}
@@ -4733,6 +4707,7 @@ packages:
   google-p12-pem@3.1.4:
     resolution: {integrity: sha512-HHuHmkLgwjdmVRngf5+gSmpkyaRI6QmOg77J8tkNBHhNEI62sGHyw4/+UkgyZEI7h84NbWprXDJ+sa3xOYFvTg==}
     engines: {node: '>=10'}
+    deprecated: Package is no longer maintained
     hasBin: true
 
   googleapis-common@4.4.3:
@@ -5038,6 +5013,7 @@ packages:
 
   inflight@1.0.6:
     resolution: {integrity: sha512-k92I/b08q4wvFscXCLvqfsHCrjrF7yiXsQuIVvVE7N82W3+aqpzuUdBbfhWcy/FZR3/4IgflMgKLOsvPDrGCJA==}
+    deprecated: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
 
   inherits@2.0.3:
     resolution: {integrity: sha512-x00IRNXNy63jwGkJmzPigoySHbaqpNuzKbBOmzK+g2OdZpQ9w+sxCN+VSB3ja7IAge2OP2qpfxTjeNcyjmW1uw==}
@@ -5512,6 +5488,7 @@ packages:
 
   lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
+    deprecated: This package is deprecated. Use the optional chaining (?.) operator instead.
 
   lodash.includes@4.3.0:
     resolution: {integrity: sha512-W3Bx6mdkRTGtlJISOvVD/lbqjTlPPUDTMnlXZFnVwi9NKJ6tiAk6LVdlhZMm17VZisqhKcgzpO5Wz91PCt5b0w==}
@@ -5680,10 +5657,6 @@ packages:
     resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
     engines: {node: '>= 0.6'}
 
-  mime-types@1.0.2:
-    resolution: {integrity: sha512-echfutj/t5SoTL4WZpqjA1DCud1XO0WQF3/GJ48YBmc4ZMhCK77QA6Z/w6VTQERLKuJ4drze3kw2TUT8xZXVNw==}
-    engines: {node: '>= 0.8.0'}
-
   mime-types@2.1.35:
     resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
     engines: {node: '>= 0.6'}
@@ -5843,6 +5816,7 @@ packages:
 
   move-concurrently@1.0.1:
     resolution: {integrity: sha512-hdrFxZOycD/g6A6SoI2bB5NA/5NEqD0569+S47WZhPvm46sD50ZHdYaFmnua5lndde9rCHGjmfK7Z8BuCt/PcQ==}
+    deprecated: This package is no longer supported.
 
   mpath@0.8.4:
     resolution: {integrity: sha512-DTxNZomBcTWlrMW76jy1wvV37X/cNNxPW1y2Jzd4DZkAaC5ZGsm8bfGfNOthcDuRJujXLqiuS6o3Tpy0JEoh7g==}
@@ -5870,6 +5844,7 @@ packages:
   multer@1.4.5-lts.1:
     resolution: {integrity: sha512-ywPWvcDMeH+z9gQq5qYHCCy+ethsk4goepZ45GLD63fOu0YcNecQxi64nDs3qluZB+murG3/D4dJ7+dGctcCQQ==}
     engines: {node: '>= 6.0.0'}
+    deprecated: Multer 1.x is impacted by a number of vulnerabilities, which have been patched in 2.x. You should upgrade to the latest 2.x version.
 
   multimatch@4.0.0:
     resolution: {integrity: sha512-lDmx79y1z6i7RNx0ZGCPq1bzJ6ZoDDKbvh7jxr9SJcWLkShMzXrHbYVpTdnhNM5MXpDUxCQ4DgqVttVXlBgiBQ==}
@@ -5931,6 +5906,7 @@ packages:
   node-domexception@1.0.0:
     resolution: {integrity: sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==}
     engines: {node: '>=10.5.0'}
+    deprecated: Use your platform's native DOMException instead
 
   node-emoji@1.10.0:
     resolution: {integrity: sha512-Yt3384If5H6BYGVHiHwTL+99OzJKHhgp82S8/dktEK73T26BazdgZ4JZh92xSVtGNJvz9UbXdNAc5hcrXV42vw==}
@@ -6003,6 +5979,7 @@ packages:
 
   npmlog@5.0.1:
     resolution: {integrity: sha512-AqZtDUWOMKs1G/8lwylVjrdYgqA4d9nu8hc+0gzRxlDb1I10+FHBGMXs6aiQHFdCUUlqH99MUMuLfzWDNDtfxw==}
+    deprecated: This package is no longer supported.
 
   nth-check@2.1.1:
     resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
@@ -6613,11 +6590,6 @@ packages:
     peerDependencies:
       react: ^15.3.0 || 16 || 17 || 18
 
-  react-dom@18.2.0:
-    resolution: {integrity: sha512-6IMTriUmvsjHUjNtEDudZfuDQUoWXVxKHhlEGSk81n4YFS+r/Kl99wXiwlVXtPBtJenozv2P+hxDsw9eA7Xo6g==}
-    peerDependencies:
-      react: ^18.2.0
-
   react-dom@18.3.1:
     resolution: {integrity: sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==}
     peerDependencies:
@@ -6787,17 +6759,6 @@ packages:
     resolution: {integrity: sha512-pq2bWo9mVD43nbts2wGv17XLiNLya+GklZ8kaDLV2Z08gDCsGpnKn9BFMepvWuHCbyVvY7J5o5+BVvoQbmlJLg==}
     engines: {node: '>=8'}
 
-  rehackt@0.0.6:
-    resolution: {integrity: sha512-l3WEzkt4ntlEc/IB3/mF6SRgNHA6zfQR7BlGOgBTOmx7IJJXojDASav+NsgXHFjHn+6RmwqsGPFgZpabWpeOdw==}
-    peerDependencies:
-      '@types/react': '*'
-      react: '*'
-    peerDependenciesMeta:
-      '@types/react':
-        optional: true
-      react:
-        optional: true
-
   rehackt@0.1.0:
     resolution: {integrity: sha512-7kRDOuLHB87D/JESKxQoRwv4DzbIdwkAGQ7p6QKGdVlY1IZheUnVhlk/4UZlNUVxdAXpyxikE3URsG067ybVzw==}
     peerDependencies:
@@ -6895,14 +6856,17 @@ packages:
 
   rimraf@2.6.3:
     resolution: {integrity: sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@2.7.1:
     resolution: {integrity: sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   rimraf@3.0.2:
     resolution: {integrity: sha512-JZkJMZkAGFFPP2YqXZXPbMlMBgsxzE8ILs4lMIX/2o0L9UBw9O/Y3o6wFw/i9YLapcUJWwqbi3kdxIPdC62TIA==}
+    deprecated: Rimraf versions prior to v4 are no longer supported
     hasBin: true
 
   ripemd160@2.0.2:
@@ -6973,9 +6937,6 @@ packages:
     resolution: {integrity: sha512-Gpczt3WA56Ly0Mn8Sl21Vj94s1axi9hDIzDFn9Ph9x3C3p4nNyvsqJoQyVXKou6cBlfFWEgRW4rT8Tb4i3XnVA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
-
-  scheduler@0.23.0:
-    resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
 
   scheduler@0.23.2:
     resolution: {integrity: sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==}
@@ -7993,6 +7954,7 @@ packages:
   yaeti@0.0.6:
     resolution: {integrity: sha512-MvQa//+KcZCUkBTIC9blM+CU9J2GzuTytsOUwf2lidtvkx/6gnEp1QvJv34t9vdjhFmha/mUiNDbN0D0mJWdug==}
     engines: {node: '>=0.10.32'}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
@@ -8092,7 +8054,7 @@ snapshots:
       ora: 4.0.3
       rxjs: 6.5.4
 
-  '@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))':
+  '@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))':
     dependencies:
       '@graphql-typed-document-node/core': 3.2.0(graphql@15.3.0)
       '@wry/caches': 1.0.1
@@ -8103,30 +8065,7 @@ snapshots:
       hoist-non-react-statics: 3.3.2
       optimism: 0.18.0
       prop-types: 15.8.1
-      rehackt: 0.1.0(@types/react@18.3.8)
-      response-iterator: 0.2.6
-      symbol-observable: 4.0.0
-      ts-invariant: 0.10.3
-      tslib: 2.7.0
-      zen-observable-ts: 1.2.5
-    optionalDependencies:
-      react-dom: 18.3.1
-      subscriptions-transport-ws: 0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@types/react'
-
-  '@apollo/client@3.9.9(@types/react@18.2.73)(graphql@15.3.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0))':
-    dependencies:
-      '@graphql-typed-document-node/core': 3.2.0(graphql@15.3.0)
-      '@wry/caches': 1.0.1
-      '@wry/equality': 0.5.7
-      '@wry/trie': 0.5.0
-      graphql: 15.3.0
-      graphql-tag: 2.12.6(graphql@15.3.0)
-      hoist-non-react-statics: 3.3.2
-      optimism: 0.18.0
-      prop-types: 15.8.1
-      rehackt: 0.0.6(@types/react@18.2.73)(react@18.2.0)
+      rehackt: 0.1.0(@types/react@18.3.8)(react@18.2.0)
       response-iterator: 0.2.6
       symbol-observable: 4.0.0
       ts-invariant: 0.10.3
@@ -8134,7 +8073,7 @@ snapshots:
       zen-observable-ts: 1.2.5
     optionalDependencies:
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       subscriptions-transport-ws: 0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@types/react'
@@ -8300,10 +8239,10 @@ snapshots:
       '@aws-crypto/sha1-browser': 3.0.0
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sso-oidc': 3.572.0(@aws-sdk/client-sts@3.572.0)
-      '@aws-sdk/client-sts': 3.572.0
+      '@aws-sdk/client-sso-oidc': 3.572.0
+      '@aws-sdk/client-sts': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)
       '@aws-sdk/core': 3.572.0
-      '@aws-sdk/credential-provider-node': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))(@aws-sdk/client-sts@3.572.0)
+      '@aws-sdk/credential-provider-node': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)(@aws-sdk/client-sts@3.572.0)
       '@aws-sdk/middleware-bucket-endpoint': 3.568.0
       '@aws-sdk/middleware-expect-continue': 3.572.0
       '@aws-sdk/middleware-flexible-checksums': 3.572.0
@@ -8358,13 +8297,13 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0)':
+  '@aws-sdk/client-sso-oidc@3.572.0':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sts': 3.572.0
+      '@aws-sdk/client-sts': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)
       '@aws-sdk/core': 3.572.0
-      '@aws-sdk/credential-provider-node': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))(@aws-sdk/client-sts@3.572.0)
+      '@aws-sdk/credential-provider-node': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)(@aws-sdk/client-sts@3.572.0)
       '@aws-sdk/middleware-host-header': 3.567.0
       '@aws-sdk/middleware-logger': 3.568.0
       '@aws-sdk/middleware-recursion-detection': 3.567.0
@@ -8401,7 +8340,6 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.6.2
     transitivePeerDependencies:
-      - '@aws-sdk/client-sts'
       - aws-crt
 
   '@aws-sdk/client-sso@3.572.0':
@@ -8447,13 +8385,13 @@ snapshots:
     transitivePeerDependencies:
       - aws-crt
 
-  '@aws-sdk/client-sts@3.572.0':
+  '@aws-sdk/client-sts@3.572.0(@aws-sdk/client-sso-oidc@3.572.0)':
     dependencies:
       '@aws-crypto/sha256-browser': 3.0.0
       '@aws-crypto/sha256-js': 3.0.0
-      '@aws-sdk/client-sso-oidc': 3.572.0(@aws-sdk/client-sts@3.572.0)
+      '@aws-sdk/client-sso-oidc': 3.572.0
       '@aws-sdk/core': 3.572.0
-      '@aws-sdk/credential-provider-node': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))(@aws-sdk/client-sts@3.572.0)
+      '@aws-sdk/credential-provider-node': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)(@aws-sdk/client-sts@3.572.0)
       '@aws-sdk/middleware-host-header': 3.567.0
       '@aws-sdk/middleware-logger': 3.568.0
       '@aws-sdk/middleware-recursion-detection': 3.567.0
@@ -8490,6 +8428,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       tslib: 2.6.2
     transitivePeerDependencies:
+      - '@aws-sdk/client-sso-oidc'
       - aws-crt
 
   '@aws-sdk/core@3.572.0':
@@ -8521,12 +8460,12 @@ snapshots:
       '@smithy/util-stream': 2.2.0
       tslib: 2.6.2
 
-  '@aws-sdk/credential-provider-ini@3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))(@aws-sdk/client-sts@3.572.0)':
+  '@aws-sdk/credential-provider-ini@3.572.0(@aws-sdk/client-sso-oidc@3.572.0)(@aws-sdk/client-sts@3.572.0)':
     dependencies:
-      '@aws-sdk/client-sts': 3.572.0
+      '@aws-sdk/client-sts': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)
       '@aws-sdk/credential-provider-env': 3.568.0
       '@aws-sdk/credential-provider-process': 3.572.0
-      '@aws-sdk/credential-provider-sso': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))
+      '@aws-sdk/credential-provider-sso': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)
       '@aws-sdk/credential-provider-web-identity': 3.568.0(@aws-sdk/client-sts@3.572.0)
       '@aws-sdk/types': 3.567.0
       '@smithy/credential-provider-imds': 2.3.0
@@ -8538,13 +8477,13 @@ snapshots:
       - '@aws-sdk/client-sso-oidc'
       - aws-crt
 
-  '@aws-sdk/credential-provider-node@3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))(@aws-sdk/client-sts@3.572.0)':
+  '@aws-sdk/credential-provider-node@3.572.0(@aws-sdk/client-sso-oidc@3.572.0)(@aws-sdk/client-sts@3.572.0)':
     dependencies:
       '@aws-sdk/credential-provider-env': 3.568.0
       '@aws-sdk/credential-provider-http': 3.568.0
-      '@aws-sdk/credential-provider-ini': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))(@aws-sdk/client-sts@3.572.0)
+      '@aws-sdk/credential-provider-ini': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)(@aws-sdk/client-sts@3.572.0)
       '@aws-sdk/credential-provider-process': 3.572.0
-      '@aws-sdk/credential-provider-sso': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))
+      '@aws-sdk/credential-provider-sso': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)
       '@aws-sdk/credential-provider-web-identity': 3.568.0(@aws-sdk/client-sts@3.572.0)
       '@aws-sdk/types': 3.567.0
       '@smithy/credential-provider-imds': 2.3.0
@@ -8565,10 +8504,10 @@ snapshots:
       '@smithy/types': 2.12.0
       tslib: 2.6.2
 
-  '@aws-sdk/credential-provider-sso@3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))':
+  '@aws-sdk/credential-provider-sso@3.572.0(@aws-sdk/client-sso-oidc@3.572.0)':
     dependencies:
       '@aws-sdk/client-sso': 3.572.0
-      '@aws-sdk/token-providers': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))
+      '@aws-sdk/token-providers': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)
       '@aws-sdk/types': 3.567.0
       '@smithy/property-provider': 2.2.0
       '@smithy/shared-ini-file-loader': 2.4.0
@@ -8580,7 +8519,7 @@ snapshots:
 
   '@aws-sdk/credential-provider-web-identity@3.568.0(@aws-sdk/client-sts@3.572.0)':
     dependencies:
-      '@aws-sdk/client-sts': 3.572.0
+      '@aws-sdk/client-sts': 3.572.0(@aws-sdk/client-sso-oidc@3.572.0)
       '@aws-sdk/types': 3.567.0
       '@smithy/property-provider': 2.2.0
       '@smithy/types': 2.12.0
@@ -8705,9 +8644,9 @@ snapshots:
       '@smithy/types': 2.12.0
       tslib: 2.6.2
 
-  '@aws-sdk/token-providers@3.572.0(@aws-sdk/client-sso-oidc@3.572.0(@aws-sdk/client-sts@3.572.0))':
+  '@aws-sdk/token-providers@3.572.0(@aws-sdk/client-sso-oidc@3.572.0)':
     dependencies:
-      '@aws-sdk/client-sso-oidc': 3.572.0(@aws-sdk/client-sts@3.572.0)
+      '@aws-sdk/client-sso-oidc': 3.572.0
       '@aws-sdk/types': 3.567.0
       '@smithy/property-provider': 2.2.0
       '@smithy/shared-ini-file-loader': 2.4.0
@@ -9267,18 +9206,18 @@ snapshots:
       '@floating-ui/core': 1.6.0
       '@floating-ui/utils': 0.2.1
 
-  '@floating-ui/react-dom@1.3.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@floating-ui/react-dom@1.3.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@floating-ui/dom': 1.6.3
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
-  '@floating-ui/react@0.19.2(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@floating-ui/react@0.19.2(react-dom@18.3.1(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@floating-ui/react-dom': 1.3.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@floating-ui/react-dom': 1.3.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       aria-hidden: 1.2.4
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       tabbable: 6.2.0
 
   '@floating-ui/utils@0.2.1': {}
@@ -9368,11 +9307,11 @@ snapshots:
       graphql: 15.3.0
       tslib: 2.0.3
 
-  '@graphql-tools/links@6.2.1(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(encoding@0.1.13)(graphql@15.3.0)':
+  '@graphql-tools/links@6.2.1(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(encoding@0.1.13)(graphql@15.3.0)':
     dependencies:
       '@graphql-tools/utils': 6.2.1(graphql@15.3.0)
       apollo-link: 1.2.14(graphql@15.3.0)
-      apollo-upload-client: 17.0.0(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(graphql@15.3.0)
+      apollo-upload-client: 17.0.0(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(graphql@15.3.0)
       cross-fetch: 3.1.5(encoding@0.1.13)
       form-data: 3.0.0
       graphql: 15.3.0
@@ -9515,22 +9454,12 @@ snapshots:
     dependencies:
       graphql: 15.3.0
 
-  '@headlessui/react@1.7.18(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@headlessui/react@1.7.18(react-dom@18.3.1(react@18.2.0))(react@18.2.0)':
     dependencies:
-      '@tanstack/react-virtual': 3.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      '@tanstack/react-virtual': 3.2.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       client-only: 0.0.1
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-
-  '@heyform-inc/answer-utils@1.2.0(@heyform-inc/shared-types-enums@1.1.4)(@heyform-inc/utils@1.0.9)(big.js@6.2.1)(dayjs@1.11.10)(html5parser@2.0.2)(libphonenumber-js@1.10.59)(validator@13.11.0)':
-    dependencies:
-      '@heyform-inc/shared-types-enums': 1.1.4
-      '@heyform-inc/utils': 1.0.9
-      big.js: 6.2.1
-      dayjs: 1.11.10
-      html5parser: 2.0.2
-      libphonenumber-js: 1.10.59
-      validator: 13.11.0
+      react-dom: 18.3.1(react@18.2.0)
 
   '@heyform-inc/answer-utils@1.2.0(@heyform-inc/shared-types-enums@1.2.2)(@heyform-inc/utils@1.2.2)(big.js@6.2.2)(dayjs@1.11.13)(html5parser@2.0.2)(libphonenumber-js@1.11.8)(validator@13.12.0)':
     dependencies:
@@ -9542,32 +9471,7 @@ snapshots:
       libphonenumber-js: 1.11.8
       validator: 13.12.0
 
-  '@heyform-inc/shared-types-enums@1.1.4': {}
-
   '@heyform-inc/shared-types-enums@1.2.2': {}
-
-  '@heyform-inc/utils@1.0.9':
-    dependencies:
-      '@types/clone': 0.1.30
-      '@types/mime-types': 2.1.4
-      '@types/ms': 0.7.34
-      '@types/object-path': 0.11.4
-      '@types/qs': 6.9.15
-      '@types/uuid': 8.3.4
-      '@types/validator': 13.11.9
-      clone: 2.1.2
-      dayjs: 1.11.10
-      deep-object-diff: 1.1.9
-      fast-equals: 5.0.1
-      humanize-bytes: 1.0.1
-      mime-types: 1.0.2
-      ms: 2.1.3
-      nanoid: 3.3.7
-      object-path: 0.11.8
-      qs: 6.12.0
-      slugify: 1.6.6
-      uuid: 8.3.2
-      validator: 13.11.0
 
   '@heyform-inc/utils@1.2.2':
     dependencies:
@@ -10276,11 +10180,11 @@ snapshots:
       mini-svg-data-uri: 1.4.4
       tailwindcss: 3.4.3(ts-node@10.9.2(@types/node@22.5.5)(typescript@4.9.5))
 
-  '@tanstack/react-virtual@3.2.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)':
+  '@tanstack/react-virtual@3.2.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)':
     dependencies:
       '@tanstack/virtual-core': 3.2.0
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
   '@tanstack/virtual-core@3.2.0': {}
 
@@ -10342,9 +10246,9 @@ snapshots:
     dependencies:
       anymatch: 3.1.3
 
-  '@types/apollo-upload-client@17.0.5(@types/react@18.2.73)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0))':
+  '@types/apollo-upload-client@17.0.5(@types/react@18.3.8)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))':
     dependencies:
-      '@apollo/client': 3.9.9(@types/react@18.2.73)(graphql@15.3.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0))
+      '@apollo/client': 3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))
       '@types/extract-files': 13.0.1
       graphql: 15.3.0
     transitivePeerDependencies:
@@ -10386,8 +10290,6 @@ snapshots:
       '@types/keyv': 3.1.4
       '@types/node': 13.9.1
       '@types/responselike': 1.0.3
-
-  '@types/clone@0.1.30': {}
 
   '@types/clone@2.1.4': {}
 
@@ -10714,9 +10616,6 @@ snapshots:
 
   '@types/prop-types@15.7.12': {}
 
-  '@types/prop-types@15.7.13':
-    optional: true
-
   '@types/qs@6.9.14': {}
 
   '@types/qs@6.9.15': {}
@@ -10725,37 +10624,31 @@ snapshots:
 
   '@types/react-copy-to-clipboard@5.0.7':
     dependencies:
-      '@types/react': 18.2.73
+      '@types/react': 18.3.8
 
   '@types/react-dom@18.2.22':
     dependencies:
-      '@types/react': 18.2.73
+      '@types/react': 18.3.8
 
   '@types/react-router-dom@5.3.3':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.73
+      '@types/react': 18.3.8
       '@types/react-router': 5.1.20
 
   '@types/react-router@5.1.20':
     dependencies:
       '@types/history': 4.7.11
-      '@types/react': 18.2.73
+      '@types/react': 18.3.8
 
   '@types/react-transition-group@4.4.10':
     dependencies:
-      '@types/react': 18.2.73
-
-  '@types/react@18.2.73':
-    dependencies:
-      '@types/prop-types': 15.7.12
-      csstype: 3.1.3
+      '@types/react': 18.3.8
 
   '@types/react@18.3.8':
     dependencies:
-      '@types/prop-types': 15.7.13
+      '@types/prop-types': 15.7.12
       csstype: 3.1.3
-    optional: true
 
   '@types/resize-observer-browser@0.1.11': {}
 
@@ -10789,8 +10682,6 @@ snapshots:
       source-map: 0.6.1
 
   '@types/uuid@10.0.0': {}
-
-  '@types/uuid@8.3.4': {}
 
   '@types/validator@13.11.9': {}
 
@@ -11330,9 +11221,9 @@ snapshots:
     transitivePeerDependencies:
       - graphql
 
-  apollo-link-timeout@4.0.0(@apollo/client@3.9.9(@types/react@18.2.73)(graphql@15.3.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0))):
+  apollo-link-timeout@4.0.0(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))):
     dependencies:
-      '@apollo/client': 3.9.9(@types/react@18.2.73)(graphql@15.3.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0))
+      '@apollo/client': 3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))
 
   apollo-link@1.2.14(graphql@15.3.0):
     dependencies:
@@ -11544,15 +11435,9 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  apollo-upload-client@17.0.0(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(graphql@15.3.0):
+  apollo-upload-client@17.0.0(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(graphql@15.3.0):
     dependencies:
-      '@apollo/client': 3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))
-      extract-files: 11.0.0
-      graphql: 15.3.0
-
-  apollo-upload-client@17.0.0(@apollo/client@3.9.9(@types/react@18.2.73)(graphql@15.3.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0)))(graphql@15.3.0):
-    dependencies:
-      '@apollo/client': 3.9.9(@types/react@18.2.73)(graphql@15.3.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(graphql@15.3.0))
+      '@apollo/client': 3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10))
       extract-files: 11.0.0
       graphql: 15.3.0
 
@@ -11831,8 +11716,6 @@ snapshots:
       - supports-color
 
   big.js@5.2.2: {}
-
-  big.js@6.2.1: {}
 
   big.js@6.2.2: {}
 
@@ -12588,8 +12471,6 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.24.1
 
-  dayjs@1.11.10: {}
-
   dayjs@1.11.12: {}
 
   dayjs@1.11.13: {}
@@ -13020,7 +12901,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-module-utils@2.8.1(@typescript-eslint/parser@5.62.0(eslint@8.57.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.29.1)(eslint@8.57.0))(eslint@8.57.0):
+  eslint-module-utils@2.8.1(@typescript-eslint/parser@5.62.0(eslint@8.57.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.0):
     dependencies:
       debug: 3.2.7
     optionalDependencies:
@@ -13041,7 +12922,7 @@ snapshots:
       doctrine: 2.1.0
       eslint: 8.57.0
       eslint-import-resolver-node: 0.3.9
-      eslint-module-utils: 2.8.1(@typescript-eslint/parser@5.62.0(eslint@8.57.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1(eslint-plugin-import@2.29.1)(eslint@8.57.0))(eslint@8.57.0)
+      eslint-module-utils: 2.8.1(@typescript-eslint/parser@5.62.0(eslint@8.57.0)(typescript@4.9.5))(eslint-import-resolver-node@0.3.9)(eslint-import-resolver-typescript@2.7.1)(eslint@8.57.0)
       hasown: 2.0.2
       is-core-module: 2.13.1
       is-glob: 4.0.3
@@ -13315,6 +13196,8 @@ snapshots:
       - supports-color
 
   expand-template@2.0.3: {}
+
+  export-from-json@1.7.4: {}
 
   express-rate-limit@5.1.3: {}
 
@@ -13930,7 +13813,7 @@ snapshots:
       iterall: 1.3.0
       uuid: 3.4.0
 
-  graphql-tools@6.2.1(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(bufferutil@4.0.8)(encoding@0.1.13)(graphql@15.3.0)(utf-8-validate@5.0.10):
+  graphql-tools@6.2.1(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(bufferutil@4.0.8)(encoding@0.1.13)(graphql@15.3.0)(utf-8-validate@5.0.10):
     dependencies:
       '@graphql-tools/batch-delegate': 6.2.1(graphql@15.3.0)
       '@graphql-tools/code-file-loader': 6.2.1(graphql@15.3.0)
@@ -13941,7 +13824,7 @@ snapshots:
       '@graphql-tools/graphql-tag-pluck': 6.2.1(graphql@15.3.0)
       '@graphql-tools/import': 6.2.1(graphql@15.3.0)
       '@graphql-tools/json-file-loader': 6.2.1(graphql@15.3.0)
-      '@graphql-tools/links': 6.2.1(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(encoding@0.1.13)(graphql@15.3.0)
+      '@graphql-tools/links': 6.2.1(@apollo/client@3.11.8(@types/react@18.3.8)(graphql@15.3.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(subscriptions-transport-ws@0.11.0(bufferutil@4.0.8)(graphql@15.3.0)(utf-8-validate@5.0.10)))(encoding@0.1.13)(graphql@15.3.0)
       '@graphql-tools/load': 6.2.1(graphql@15.3.0)
       '@graphql-tools/load-files': 6.2.1(graphql@15.3.0)
       '@graphql-tools/merge': 6.2.1(graphql@15.3.0)
@@ -14912,8 +14795,6 @@ snapshots:
 
   mime-db@1.52.0: {}
 
-  mime-types@1.0.2: {}
-
   mime-types@2.1.35:
     dependencies:
       mime-db: 1.52.0
@@ -15012,12 +14893,12 @@ snapshots:
 
   mkdirp@1.0.4: {}
 
-  mobx-react-lite@3.4.3(mobx@6.12.1)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  mobx-react-lite@3.4.3(mobx@6.12.1)(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       mobx: 6.12.1
       react: 18.2.0
     optionalDependencies:
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
   mobx@6.12.1: {}
 
@@ -15816,60 +15697,60 @@ snapshots:
       iconv-lite: 0.4.24
       unpipe: 1.0.0
 
-  rc-align@4.0.15(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  rc-align@4.0.15(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.1
       classnames: 2.5.1
       dom-align: 1.12.4
-      rc-util: 5.39.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      rc-util: 5.39.1(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       resize-observer-polyfill: 1.5.1
 
-  rc-field-form@1.43.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  rc-field-form@1.43.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.1
       async-validator: 4.2.5
-      rc-util: 5.39.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      rc-util: 5.39.1(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
-  rc-motion@2.9.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  rc-motion@2.9.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.1
       classnames: 2.5.1
-      rc-util: 5.39.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      rc-util: 5.39.1(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
-  rc-picker@2.7.6(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  rc-picker@2.7.6(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.1
       classnames: 2.5.1
       date-fns: 2.30.0
-      dayjs: 1.11.10
+      dayjs: 1.11.13
       moment: 2.30.1
-      rc-trigger: 5.3.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      rc-util: 5.39.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      rc-trigger: 5.3.4(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
+      rc-util: 5.39.1(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       shallowequal: 1.1.0
 
-  rc-trigger@5.3.4(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  rc-trigger@5.3.4(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.1
       classnames: 2.5.1
-      rc-align: 4.0.15(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      rc-motion: 2.9.0(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      rc-util: 5.39.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      rc-align: 4.0.15(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
+      rc-motion: 2.9.0(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
+      rc-util: 5.39.1(react-dom@18.3.1(react@18.2.0))(react@18.2.0)
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
-  rc-util@5.39.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  rc-util@5.39.1(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.1
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       react-is: 18.2.0
 
   rc@1.2.8:
@@ -15888,10 +15769,10 @@ snapshots:
       regenerator-runtime: 0.13.11
       whatwg-fetch: 3.6.20
 
-  react-colorful@5.6.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-colorful@5.6.1(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
   react-copy-to-clipboard@5.1.0(react@18.2.0):
     dependencies:
@@ -15899,17 +15780,11 @@ snapshots:
       prop-types: 15.8.1
       react: 18.2.0
 
-  react-dom@18.2.0(react@18.2.0):
+  react-dom@18.3.1(react@18.2.0):
     dependencies:
       loose-envify: 1.4.0
       react: 18.2.0
-      scheduler: 0.23.0
-
-  react-dom@18.3.1:
-    dependencies:
-      loose-envify: 1.4.0
       scheduler: 0.23.2
-    optional: true
 
   react-error-boundary@4.0.13(react@18.2.0):
     dependencies:
@@ -15918,7 +15793,7 @@ snapshots:
 
   react-fast-compare@3.2.2: {}
 
-  react-flow-renderer@10.3.17(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-flow-renderer@10.3.17(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.1
       '@types/d3': 7.4.3
@@ -15928,17 +15803,17 @@ snapshots:
       d3-selection: 3.0.0
       d3-zoom: 3.0.0
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       zustand: 3.7.2(react@18.2.0)
 
-  react-i18next@11.18.6(i18next@21.10.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-i18next@11.18.6(i18next@21.10.0)(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.1
       html-parse-stringify: 3.0.1
       i18next: 21.10.0
       react: 18.2.0
     optionalDependencies:
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
   react-is@16.13.1: {}
 
@@ -15947,26 +15822,26 @@ snapshots:
 
   react-is@18.2.0: {}
 
-  react-popper@2.3.0(@popperjs/core@2.11.8)(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-popper@2.3.0(@popperjs/core@2.11.8)(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@popperjs/core': 2.11.8
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       react-fast-compare: 3.2.2
       warning: 4.0.3
 
   react-refresh@0.10.0: {}
 
-  react-resizable-panels@2.0.16(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-resizable-panels@2.0.16(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
-  react-router-dom@6.22.3(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-router-dom@6.22.3(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@remix-run/router': 1.15.3
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       react-router: 6.22.3(react@18.2.0)
 
   react-router@6.22.3(react@18.2.0):
@@ -15974,28 +15849,28 @@ snapshots:
       '@remix-run/router': 1.15.3
       react: 18.2.0
 
-  react-sortablejs@6.1.4(@types/sortablejs@1.15.8)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)(sortablejs@1.15.2):
+  react-sortablejs@6.1.4(@types/sortablejs@1.15.8)(react-dom@18.3.1(react@18.2.0))(react@18.2.0)(sortablejs@1.15.2):
     dependencies:
       '@types/sortablejs': 1.15.8
       classnames: 2.3.1
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
       sortablejs: 1.15.2
       tiny-invariant: 1.2.0
 
-  react-transition-group@4.4.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-transition-group@4.4.5(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       '@babel/runtime': 7.24.1
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
-  react-transition-state@1.1.5(react-dom@18.2.0(react@18.2.0))(react@18.2.0):
+  react-transition-state@1.1.5(react-dom@18.3.1(react@18.2.0))(react@18.2.0):
     dependencies:
       react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
+      react-dom: 18.3.1(react@18.2.0)
 
   react@18.2.0:
     dependencies:
@@ -16090,14 +15965,10 @@ snapshots:
 
   regexpp@3.2.0: {}
 
-  rehackt@0.0.6(@types/react@18.2.73)(react@18.2.0):
-    optionalDependencies:
-      '@types/react': 18.2.73
-      react: 18.2.0
-
-  rehackt@0.1.0(@types/react@18.3.8):
+  rehackt@0.1.0(@types/react@18.3.8)(react@18.2.0):
     optionalDependencies:
       '@types/react': 18.3.8
+      react: 18.2.0
 
   relay-compiler@10.0.1(encoding@0.1.13)(graphql@15.3.0):
     dependencies:
@@ -16290,14 +16161,9 @@ snapshots:
       immutable: 4.3.5
       source-map-js: 1.2.0
 
-  scheduler@0.23.0:
-    dependencies:
-      loose-envify: 1.4.0
-
   scheduler@0.23.2:
     dependencies:
       loose-envify: 1.4.0
-    optional: true
 
   schema-utils@1.0.0:
     dependencies:

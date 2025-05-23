@@ -10,7 +10,7 @@ export const ExportLink: FC = () => {
   const { formId } = useParam()
 
   function handleClick() {
-    window.open(`/export/submissions?formId=${formId}`)
+    window.open(`/export/submissions/xls?formId=${formId}`)
   }
 
   return (
