@@ -1,7 +1,6 @@
 import { flattenFields, htmlUtils } from '@heyform-inc/answer-utils'
 import {
   CHOICES_FIELD_KINDS,
-  CUSTOM_COLUMN_CHOICE_KINDS,
   FieldKindEnum,
   QUESTION_FIELD_KINDS
 } from '@heyform-inc/shared-types-enums'

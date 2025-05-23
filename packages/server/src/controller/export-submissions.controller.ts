@@ -41,7 +41,7 @@ export class ExportSubmissionsController {
       submissions
     )
     const dateStr = date().format('YYYY-MM-DD')
-    const filename = `${encodeURIComponent(form.name)}-${dateStr}.csv`
+    const filename = `${encodeURIComponent(form.name)}-${dateStr}.json`
 
     res.header('Content-Disposition', `attachment; filename="${filename}"`)
     res.send(data)
