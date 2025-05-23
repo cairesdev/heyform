@@ -6,7 +6,7 @@ import {
   QUESTION_FIELD_KINDS
 } from '@heyform-inc/shared-types-enums'
 import { helper, pickValidValues } from '@heyform-inc/utils'
-import { IconChartBar, IconDatabase } from '@tabler/icons-react'
+import { IconChartBar } from '@tabler/icons-react'
 import { observer } from 'mobx-react-lite'
 import { FC, useState } from 'react'
 import { useTranslation } from 'react-i18next'
@@ -31,7 +31,6 @@ const Report: FC = observer(() => {
   const getTitle = (title: any) => {
     const serialized = htmlUtils.serialize(title)
 
-    // Normaliza múltiplos espaços (se houver) e garante que palavras não fiquem coladas
     return serialized
       .replace(/(\S)([A-Z])/g, '$1 $2')
       .replace(/\s+/g, ' ')

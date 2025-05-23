@@ -42,7 +42,6 @@
     "country-list": "2.2.0",
     "disposable-email-blocklist": "0.0.1",
     "dotenv": "8.2.0",
-    "export-from-json": "^1.7.4",
     "express-rate-limit": "5.1.3",
     "fs-extra": "11.2.0",
     "google-auth-library": "6.0.6",
